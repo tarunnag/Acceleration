@@ -1,0 +1,18 @@
+Oops:
+ 1.Object oriented programming language which is used in various programming languages 
+ 2.It is used that for secure programming and for reusability
+Class:
+ 1.It is like a blueprint or template.
+ 2.It is like a data type but not a data type in which we can do the various activities like creating the objects ,methods etc
+Object:
+ 1.It is nothing but the real entity which is nothing but here the memory allocation starts 
+ 2.The object is created with the help of the new key word
+Methods :
+ 1.Methods are nothing but the like the functions only but it will give a return value
+ 2.These are done inside the class so that multiple methods can be created inside a class and it can be used for multiple times
+ 3.The methods can be passed by using ref,out,params
+   1.ref is nothing but Basically, it means that any change made to a value that is passed by reference will reflect this change since you are modifying the value at the address and not just the value.
+   2.out it is used for passing and getting the multiple values 
+   3.params it is used for passing the arrays and for multiple value but the params should in the last.
+Constructor:
+ 1.It is just like a method it is created with the class by default and it can be created as the user defined too
