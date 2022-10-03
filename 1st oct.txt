@@ -1,0 +1,24 @@
+Inheritance:
+ 1.It is the ability to inherit the fields from the another class.
+ 2.It will be having base or parent class and there will be child class which inherits the fields from the parent class
+   example:  class A{}
+             class B:A
+ 3.The inheritance can be done to multilevel that is the one class can only access the fields of one class
+ 4.The multiple inheritance is not possible in c#
+Polymorphism:
+ 1.It is the ability to take more than one form 
+ 2.In other words derived class object can point to the base class reference variable and it is possible to override
+ example:    public virtual void name{} //base class
+             public override void name{}//child class
+Struct:
+ 1.Struct is nothing but a used for storing data 
+ 2.It is like a value type that is used to store the data in stack
+ 3.The data will be lost after the termination of the loop
+Interface:
+ 1.It is nothing but a method that has no body.
+ 2.It is used for performing the multiple inheritance
+ 3.It is used for just declaration purpose only not for implementation
+ example:    interface name{ void name()}
+             interface name1{void name()}
+             class A:name,name1
+         
