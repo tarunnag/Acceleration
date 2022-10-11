@@ -21,4 +21,26 @@ Interface:
  example:    interface name{ void name()}
              interface name1{void name()}
              class A:name,name1
-         
+
+
+
+Abstarct Class:
+  1.It can have only methods not the body
+  2.The object cannot be created in abstract class
+  3.The object will be created for the child class only
+  example:   public abstract class name{}
+Static class:
+   1.It is created by using static key word
+   2.It contains only static members,methods and static constructors
+   3.For this no object is created because it same for the whole class
+   example:  public static class name{ 
+                   static method(){}
+             }
+Extension class:
+   1.Enable you to "add" methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type.  
+   2.It is used for creating a methods for the existing class without any modifying the source
+Partial Class:
+   1.It is used for splitting the task .
+   2.A single class can be created as partial and many can work with the same class and merge at the compile time.
+   3.It is created using the partial keyword
+   example:   partial class name{} 
